@@ -1,3 +1,6 @@
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+
+
 # PrimeNumberCheckerGUI
 A simple interface which checks for positive integers their primality. 
 To make sure the application runs smoothly make sure you have these following Python Libraries:
