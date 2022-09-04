@@ -3,6 +3,8 @@
 //Project Timeline: September 3rd - September 4th
 //Location: Zürich, Switzerland 
 //Time taken to complete: 8 hours 
+
+//All of the pacakges used in this application 
 using System;
 using System.Collections.Generic;
 using System.Windows.Forms;
@@ -25,10 +27,6 @@ namespace PrimeCheckerGUI
                 dataGridView1.Rows.Add(report_results1_ni[index], report_results1_cp[index]);
             }
 
-        }
-
-        private void ReportScreen_Load(object sender, EventArgs e)
-        {
         }
 
         private void button1_Click(object sender, EventArgs e)

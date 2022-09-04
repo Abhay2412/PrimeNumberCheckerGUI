@@ -82,7 +82,6 @@ namespace PrimeCheckerGUI
             this.Controls.Add(this.button1);
             this.Name = "ReportScreen";
             this.Text = "Prime Checker - Report";
-            this.Load += new System.EventHandler(this.ReportScreen_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
 
