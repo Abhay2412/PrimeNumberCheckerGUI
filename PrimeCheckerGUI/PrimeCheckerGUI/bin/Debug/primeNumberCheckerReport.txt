@@ -1,0 +1,3 @@
+Number Input   Composite/Prime
+12             Composite      
+12             Composite      
