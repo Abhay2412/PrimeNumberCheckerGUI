@@ -47,7 +47,6 @@
             this.label1.Size = new System.Drawing.Size(178, 13);
             this.label1.TabIndex = 0;
             this.label1.Text = "Enter a positive integer number only:";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // label2
             // 
@@ -64,7 +63,6 @@
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(267, 20);
             this.textBox1.TabIndex = 2;
-            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // button1
             // 
@@ -101,7 +99,6 @@
             this.openFileDialog1.FileName = "openFileDialog1";
             this.openFileDialog1.Multiselect = true;
             this.openFileDialog1.ShowHelp = true;
-            this.openFileDialog1.FileOk += new System.ComponentModel.CancelEventHandler(this.openFileDialog1_FileOk);
             // 
             // button4
             // 
@@ -120,7 +117,6 @@
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(0, 13);
             this.label4.TabIndex = 8;
-            this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
             // MainScreen
             // 
@@ -137,7 +133,6 @@
             this.Controls.Add(this.label1);
             this.Name = "MainScreen";
             this.Text = "Prime Checker - Main";
-            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

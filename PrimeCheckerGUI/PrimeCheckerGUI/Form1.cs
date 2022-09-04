@@ -3,6 +3,8 @@
 //Project Timeline: September 3rd - September 4th
 //Location: Zürich, Switzerland 
 //Time taken to complete: 8 hours 
+
+//All of the pacakges used in this application 
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -11,42 +13,18 @@ using System.IO;
 
 namespace PrimeCheckerGUI
 {
-    public partial class MainScreen : Form
+    public partial class MainScreen : Form //This is the class for the main screen 
     {
-        public static bool running = true;
-        List<string> report_results_result_cp = new List<string>();
-        List<string> report_results_result_ni = new List<string>();
-        public static object user_input_from_file = new List<Object>();
+        public static bool running = true; //Checks if the tests are running or not and will cancel them 
+        List<string> report_results_result_cp = new List<string>(); //Saves the result of the composite or prime helpful for the results in the report
+        List<string> report_results_result_ni = new List<string>(); //Saves the result of the number input from the user or reading it from the manually 
+        public static object user_input_from_file = new List<Object>(); //
 
         public MainScreen()
         {
             InitializeComponent();
         }
 
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void checkBox1_CheckedChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button4_Click(object sender, EventArgs e)
-        {
-            
-        }
-
-        private void openFileDialog1_FileOk(object sender, CancelEventArgs e)
-        {
-
-        }
         private void button4_Click_1(object sender, EventArgs e)
         {
             OpenFileDialog openFileDialog1 = new OpenFileDialog();
@@ -95,11 +73,6 @@ namespace PrimeCheckerGUI
             form2.ShowDialog();
         }
         int user_input_manually;
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-            
-        }
-
         private void button2_Click(object sender, EventArgs e)
         {
             running = true;
@@ -126,11 +99,6 @@ namespace PrimeCheckerGUI
                 if (number % i == 0)
                     return false;
             return true;
-        }
-
-        private void label4_Click(object sender, EventArgs e)
-        {
-
         }
 
         private void button1_Click(object sender, EventArgs e)
